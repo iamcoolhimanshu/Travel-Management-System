@@ -53,17 +53,20 @@ Displays meaningful error messages
 
 Home Page (List View)
 
+
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c1d2496c-dd53-4dea-80f1-5044a97bc138" />
 
 ---
 
 Add Travel Page
 
+
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5e306e60-ef8e-47ba-b313-0db8a8b60c01" />
 
 ---
 
 Login Page
+
 
 <img width="792" height="666" alt="image" src="https://github.com/user-attachments/assets/186d32d9-eff9-4ac3-a346-41eb7f51f5b1" />
 
@@ -72,7 +75,9 @@ Login Page
 🧠 Author
 
 Himanshu Vishwakarma
+
 💼 Java Developer | Spring Boot | MySQL | REST APIs
+
 iamcoolhimanshu.9636@gmail.com
 
 
