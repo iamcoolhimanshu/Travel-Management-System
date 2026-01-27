@@ -7,6 +7,24 @@ The application features a dynamic theme switcher (☀️ Summer / ❄️ Winter
 
 ---
 
+📍 Description ---
+
+Developed a full-stack Travel Management System to manage trip bookings, destinations, customers, and payments.
+
+Built RESTful APIs using Spring Boot for handling authentication, reservations, and itinerary management.
+
+Designed responsive frontend components in React for searching trips, booking tickets, and viewing travel history.
+
+Implemented role-based access control using Spring Security for Admin and User modules.
+
+Integrated MySQL database for storing user data, bookings, routes, and payment records.
+
+Optimized API performance and ensured secure data handling with JWT authentication.
+
+Deployed the application with Docker and followed clean architecture and MVC design patterns.
+
+----
+
 🚀 Features
 
 ✅ User Authentication
