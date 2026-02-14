@@ -1,71 +1,154 @@
-🧳 Travel Management System
+<div align="center">
 
-A Spring Boot web application for managing travel packages with secure login/logout, image uploads, and a modern responsive UI built using Thymeleaf, Bootstrap 5, and Java.
+# ✈️🌍 Travelling Application
 
-Users can add, view, edit, and delete travel packages, each with a title, location, description, price, and image.
-The application features a dynamic theme switcher (☀️ Summer / ❄️ Winter / 🌧️ Rain), data validation, and Spring Security for authentication.
+### *Elegant Spring Boot Travel Management System*
+
+<p align="center">
+  <b>Secure • Modern • Responsive • Scalable</b>
+</p>
+
+<p align="center">
+  <i>Manage travel packages with secure authentication, image uploads, and a sleek responsive UI powered by Spring Boot & Thymeleaf.</i>
+</p>
+
+</div>
 
 ---
 
-📍 Description ---
+## 🚀 Overview
 
-Developed a full-stack Travel Management System to manage trip bookings, destinations, customers, and payments.
+**Travel Package Manager** is a robust **Spring Boot** web application designed to manage travel packages efficiently with secure login/logout, image upload capabilities, and a clean responsive UI using **Thymeleaf** and **Bootstrap 5**.
 
-Built RESTful APIs using Spring Boot for handling authentication, reservations, and itinerary management.
+---
 
-Designed responsive frontend components in React for searching trips, booking tickets, and viewing travel history.
+## ✨ Key Features
 
-Implemented role-based access control using Spring Security for Admin and User modules.
+* 🔐 **Secure Authentication** – Login & Logout with Spring Security
+* 🧳 **Package Management** – Create, Update, Delete & View packages
+* 🖼️ **Image Uploads** – Attach beautiful travel images to packages
+* 📱 **Responsive UI** – Built with Bootstrap 5 for all devices
+* ⚡ **Fast Server Rendering** – Powered by Thymeleaf templates
+* 🗄️ **Database Integration** – JPA / Hibernate support
+* 🧩 **Clean MVC Architecture** – Maintainable & scalable codebase
 
-Integrated MySQL database for storing user data, bookings, routes, and payment records.
+---
 
-Optimized API performance and ensured secure data handling with JWT authentication.
+## 🛠️ Tech Stack
 
-Deployed the application with Docker and followed clean architecture and MVC design patterns.
+| 💻 Layer      | ⚙️ Technology                            |
+| ------------- | ---------------------------------------- |
+| 🚀 Backend    | Spring Boot, Spring MVC, Spring Security |
+| 🎨 Frontend   | Thymeleaf, Bootstrap 5, HTML5, CSS3      |
+| 🗄️ Database  | MySQL                             |
+| 🔗 ORM        | Spring Data JPA / Hibernate              |
+| 🧰 Build Tool | Maven                                    |
+| ☕ Language    | Java                                     |
 
-----
+---
 
-🚀 Features
+## 📂 Project Structure
 
-✅ User Authentication
+```
+travel-package-manager
+│
+├── 📁 src/main/java/com/example/travel
+│   ├── 🎮 controller     → MVC Controllers
+│   ├── ⚙️ service        → Business Logic
+│   ├── 🗃️ repository     → JPA Repositories
+│   ├── 🧩 model          → Entity Classes
+│   └── 🔐 config         → Security Configuration
+│
+├── 📁 src/main/resources
+│   ├── 🖼️ templates      → Thymeleaf Views
+│   ├── 🎨 static         → CSS, JS, Images
+│   └── ⚙️ application.properties
+│
+└── 📦 pom.xml
+```
 
-Spring Security-based login/logout
+---
 
-Password encryption & session management
+## ⚡ Getting Started
 
-✅ CRUD Travel Management
+### 1️⃣ Clone Repository
 
-Add, edit, delete, and view travel packages
+```bash
+git clone https://github.com/your-username/travel-package-manager.git
+cd travel-package-manager
+```
 
-Upload travel images from your system (saved in /uploads/)
+### 2️⃣ Configure Database
 
-✅ Image Upload Handling
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/travel_db
+spring.datasource.username=root
+spring.datasource.password=your_password
+spring.jpa.hibernate.ddl-auto=update
+```
 
-Uploaded images are saved locally
+### 3️⃣ Run Application
 
-Automatically linked with each travel record
+```bash
+mvn spring-boot:run
+```
 
-✅ Responsive UI
+### 4️⃣ Open in Browser
 
-Built with Bootstrap 5 + Thymeleaf
+```
+http://localhost:8080
+```
 
-Advanced navbar and theme switch system
+---
 
-Beautiful, modern, travel-style cards
+## 🔐 Authentication Module
 
-✅ Validation
+* Spring Security based login system
+* Session management & protected routes
+* Role-based access ready (extendable)
 
-Form-level validation for all fields
+---
 
-Displays meaningful error messages
+## 🖼️ Image Upload Support
 
-✅ Dynamic Theme System
+Upload and manage travel package images seamlessly.
+Supports local storage (extendable to AWS S3 / Cloudinary ☁️).
 
-☀️ Summer — Bright orange/yellow gradient
+---
 
-❄️ Winter — Cool blue gradient
+## 🌟 Future Enhancements
 
-🌧️ Rain — Aqua & teal gradient
+* 🔎 Smart Search & Filters
+* 📅 Booking & Reservation Module
+* ☁️ Cloud Image Storage Integration
+* 📊 Admin Analytics Dashboard
+* 🌐 REST API version for mobile apps
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Fork the repository and submit a pull request to improve the project.
+
+---
+
+## 📜 License
+
+Licensed under the **MIT License**.
+
+---
+
+<div align="center">
+
+### 👨‍💻 Developed by Himanshu
+
+*Java Developer • Spring Boot Enthusiast*
+
+⭐ If you like this project, don’t forget to star the repository!
+
+</div>
+
 
 ---
 
